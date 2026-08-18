@@ -1,0 +1,17 @@
+name: MultiEffectBD
+main: MultiEffectBD\BobyDev\Main
+version: 1.1.1
+api: ["5.0.0"]
+author: BobyDev
+description: "Form UI menu to apply effects (with 1-100 amount) and custom-level enchantments to a held item. Effects stay active only while the tagged item is held."
+
+commands:
+  meb:
+    description: "Open the MultiEffectBD menu"
+    permission: multieffectbd.use
+    usage: "/meb"
+
+permissions:
+  multieffectbd.use:
+    description: "Allows use of /meb"
+    default: op
